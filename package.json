@@ -1,0 +1,21 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Simple Minesweeper game in JS",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [],
+  "author": "Krystian Kowal <krystian@kowal.pro>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
