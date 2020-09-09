@@ -7,6 +7,7 @@ const removeGameTiles = () => {
 };
 
 const restartGame = () => {
+  document.querySelector('.message').innerText = 'Minesweeper';
   removeGameTiles();
   const game = new Game(config);
   game.start();
