@@ -11,4 +11,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./config":"BDLb","./game":"JYLQ"}],"uBxZ":[function(require,module,exports) {
 "use strict";var e=u(require("./config")),t=u(require("./game")),r=u(require("./restart"));function u(e){return e&&e.__esModule?e:{default:e}}document.addEventListener("DOMContentLoaded",function(){(0,r.default)(),new t.default(e.default).start()});
 },{"./config":"BDLb","./game":"JYLQ","./restart":"ivX8"}]},{},["uBxZ"], null)
-//# sourceMappingURL=/src.9fb191db.js.map
+//# sourceMappingURL=src.9fb191db.js.map
